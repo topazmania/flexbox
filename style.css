@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    height: 200px;
+    margin-bottom: 10vh;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    width: 50vw;
+    margin: auto;
+    text-justify: inter-word;
+    text-align: justify;
+    font-size: 25px;
+}
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  body {
+    background-color: black;
+  }
+@media (max-width:450px) {
+    .text{
+    width: 90vw;
+    margin: auto;
+    text-justify: inter-word;
+    text-align: justify;
+    font-size: 16px;
+    }
+    
+}
